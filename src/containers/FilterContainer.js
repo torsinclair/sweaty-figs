@@ -24,7 +24,7 @@ export default class FilterContainer extends Component {
     };
   }
 
-  loadActivities () {
+  ComponentWillUpdate () {
     const { activities } = this.props;
 
     var areas_id = [];
